@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Glass Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="bubbles"></div>
+    </div>
+    
+    <main class="container">
+        <div class="glass-card">
+            <h1 class="title">Positive Word Generator</h1>
+            <p class="subtitle">Click the button to generate inspiring words and quotes</p>
+            
+            <div class="display-area">
+                <div id="generatedText" class="generated-text">
+                    Ready to inspire...
+                </div>
+            </div>
+            
+            <button id="generateBtn" class="generate-btn">
+                <span class="btn-text">Generate</span>
+                <div class="btn-ripple"></div>
+            </button>
+            
+            <div class="stats">
+                <span id="wordCount">0</span> words generated
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
